@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Перевод текста",
+    "version": "1.0",
+	"description": "Плагин переводит введенный текст",
+
+    "icons": {
+        "128": "logo.png"
+    },
+
+        "permissions": [
+            "http://translate.yandex.net/*"
+        ],
+
+    "browser_action": {
+        "default_title": "Переводчик",
+        "default_icon": "logo.png",
+        "default_popup": "popup.html"
+    }
+ }
